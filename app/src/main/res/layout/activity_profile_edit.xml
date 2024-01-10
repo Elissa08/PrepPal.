@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile_Edit">
+
+    <EditText
+        android:id="@+id/editTextText3"
+        android:layout_width="340dp"
+        android:layout_height="51dp"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="263dp" />
+
+    <EditText
+        android:id="@+id/editTextText3"
+        android:layout_width="340dp"
+        android:layout_height="51dp"
+        android:ems="10"
+        android:hint="Date of Birth"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="509dp" />
+
+    <EditText
+        android:id="@+id/editTextText3"
+        android:layout_width="340dp"
+        android:layout_height="51dp"
+        android:ems="10"
+        android:hint="Address"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="447dp" />
+
+    <EditText
+        android:id="@+id/editTextText3"
+        android:layout_width="340dp"
+        android:layout_height="51dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="327dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="41dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="95dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <EditText
+        android:id="@+id/editTextText3"
+        android:layout_width="340dp"
+        android:layout_height="51dp"
+        android:ems="10"
+        android:hint="Phone"
+        android:inputType="text"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="388dp" />
+
+    <EditText
+        android:id="@+id/editTextText4"
+        android:layout_width="43dp"
+        android:layout_height="30dp"
+        android:background="#FFFCFC"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Save"
+        tools:layout_editor_absoluteX="334dp"
+        tools:layout_editor_absoluteY="41dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

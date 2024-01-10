@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Settings">
+
+    <EditText
+        android:id="@+id/editTextText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:text="History"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="173dp"
+        tools:layout_editor_absoluteY="490dp" />
+
+    <EditText
+        android:id="@+id/editTextText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:text="Saved"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="177dp"
+        tools:layout_editor_absoluteY="445dp" />
+
+    <EditText
+        android:id="@+id/editTextText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:text="Help?"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="179dp"
+        tools:layout_editor_absoluteY="580dp" />
+
+    <EditText
+        android:id="@+id/editTextText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:text="Log Out"
+        android:textAlignment="center"
+        android:textColor="@color/colorRed"
+        tools:layout_editor_absoluteX="170dp"
+        tools:layout_editor_absoluteY="625dp" />
+
+    <EditText
+        android:id="@+id/editTextText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:text="Settings"
+        android:textAlignment="center"
+        android:textColor="@color/colorRed"
+        tools:layout_editor_absoluteX="169dp"
+        tools:layout_editor_absoluteY="400dp" />
+
+    <EditText
+        android:id="@+id/editTextText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:text="Archive"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="172dp"
+        tools:layout_editor_absoluteY="535dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_medium"
+        android:text="Username"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="166dp"
+        tools:layout_editor_absoluteY="260dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_medium"
+        android:text="Edit"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="234dp"
+        tools:layout_editor_absoluteY="340dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_medium"
+        android:text="Location"
+        android:textColor="@color/colorRed"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        tools:layout_editor_absoluteX="172dp"
+        tools:layout_editor_absoluteY="283dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profile"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="41dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="162dp"
+        android:layout_height="148dp"
+        app:srcCompat="@drawable/Profilepic"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="99dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_medium"
+        android:text="Album"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="340dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

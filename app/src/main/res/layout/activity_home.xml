@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@android:drawable/ic_menu_my_calendar"
+        app:rippleColor="#FF0000"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="691dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/home_btn"
+        app:rippleColor="#FF0000"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="691dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@android:drawable/ic_menu_add"
+        app:rippleColor="#FF0000"
+        tools:layout_editor_absoluteX="234dp"
+        tools:layout_editor_absoluteY="691dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/ic_launcher_foreground"
+        app:rippleColor="#FF0000"
+        tools:layout_editor_absoluteX="332dp"
+        tools:layout_editor_absoluteY="691dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="386dp"
+        android:layout_height="177dp"
+        android:background="#B6B2B2"
+        app:srcCompat="@drawable/Food1"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="201dp" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="386dp"
+        android:layout_height="177dp"
+        android:background="#B6B2B2"
+        app:srcCompat="@drawable/Food1"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="474dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="386dp"
+        android:layout_height="31dp"
+        android:background="#B6B2B2"
+        android:drawableEnd="@android:drawable/btn_star"
+        android:drawableTint="#E40000"
+        android:text="    Quick Lunch! Salmon with Herb Pasta"
+        android:textAlignment="textStart"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="651dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_medium"
+        android:text="Yor"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="444dp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/Profilepic"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="417dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View recipe..."
+        android:textColor="#FF1E1E"
+        android:textSize="8sp"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="671dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="44dp"
+        android:layout_height="41dp"
+        android:rotationY="180"
+        android:tint="#FF0000"
+        app:srcCompat="@android:drawable/ic_menu_sort_by_size"
+        tools:layout_editor_absoluteX="346dp"
+        tools:layout_editor_absoluteY="18dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:textColor="@color/colorRed"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="25dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="333dp"
+        android:layout_height="92dp"
+        app:srcCompat="@drawable/Preppal"
+        tools:layout_editor_absoluteX="-74dp"
+        tools:layout_editor_absoluteY="2dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="47dp"
+        android:layout_height="41dp"
+        android:tint="#ED0909"
+        app:srcCompat="@drawable/ic_notifications_black_24dp"
+        tools:layout_editor_absoluteX="299dp"
+        tools:layout_editor_absoluteY="18dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="49dp"
+        android:layout_height="41dp"
+        android:foregroundTint="#00FF0000"
+        android:tint="#E60A0A"
+        app:srcCompat="@android:drawable/ic_menu_search"
+        tools:layout_editor_absoluteX="250dp"
+        tools:layout_editor_absoluteY="18dp" />
+
+    <EditText
+        android:id="@+id/editTextText6"
+        android:layout_width="410dp"
+        android:layout_height="53dp"
+        android:background="#8C8C8C"
+        android:drawableStart="@drawable/ic_launcher_foreground"
+        android:drawableEnd="@android:drawable/ic_menu_camera"
+        android:ems="10"
+        android:hint="Create a post..."
+        android:inputType="text"
+        android:textColorHint="#C36060"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="80dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="386dp"
+        android:layout_height="31dp"
+        android:background="#B6B2B2"
+        android:drawableEnd="@android:drawable/btn_star"
+        android:drawableTint="#E40000"
+        android:text="    Quick Lunch! Salmon with Herb Pasta"
+        android:textAlignment="textStart"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="378dp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/Profilepic"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="144dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inter_medium"
+        android:text="Loid Forger"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="171dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View recipe..."
+        android:textColor="#FF1E1E"
+        android:textSize="8sp"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="398dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

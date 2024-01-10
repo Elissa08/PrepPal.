@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Notification">
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_menu_revert"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="37dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@android:drawable/ic_menu_my_calendar"
+        app:rippleColor="#FF0000"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="691dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/home_btn"
+        app:rippleColor="#FF0000"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="691dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@android:drawable/ic_menu_add"
+        app:rippleColor="#FF0000"
+        tools:layout_editor_absoluteX="234dp"
+        tools:layout_editor_absoluteY="691dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/ic_launcher_foreground"
+        app:rippleColor="#FF0000"
+        tools:layout_editor_absoluteX="332dp"
+        tools:layout_editor_absoluteY="691dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="88dp"
+        android:layout_height="24dp"
+        android:text="Notifcation"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="45dp" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="490dp"
+        android:layout_height="358dp"
+        android:tint="#040303"
+        app:srcCompat="@android:drawable/divider_horizontal_dark"
+        tools:layout_editor_absoluteX="-68dp"
+        tools:layout_editor_absoluteY="99dp" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="59dp"
+        android:layout_height="53dp"
+        app:srcCompat="@drawable/Buffalo"
+        tools:layout_editor_absoluteX="326dp"
+        tools:layout_editor_absoluteY="379dp" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="379dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="176dp"
+        android:layout_height="27dp"
+        android:fontFamily="@font/inter_medium"
+        android:text="Sharon saved your recipe!"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="392dp" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="59dp"
+        android:layout_height="53dp"
+        app:srcCompat="@drawable/Buffalo"
+        tools:layout_editor_absoluteX="326dp"
+        tools:layout_editor_absoluteY="323dp" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="323dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="176dp"
+        android:layout_height="27dp"
+        android:fontFamily="@font/inter_medium"
+        android:text="DubuCooks liked your recipe!"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="336dp" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="59dp"
+        android:layout_height="53dp"
+        app:srcCompat="@drawable/Buffalo"
+        tools:layout_editor_absoluteX="326dp"
+        tools:layout_editor_absoluteY="263dp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="176dp"
+        android:layout_height="27dp"
+        android:fontFamily="@font/inter_medium"
+        android:text="God Jihyo saved your recipe!"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="276dp" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="263dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="176dp"
+        android:layout_height="27dp"
+        android:fontFamily="@font/inter_medium"
+        android:text="Sanake liked your recipe!"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="154dp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="28dp"
+        android:layout_height="15dp"
+        android:text="New"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="113dp" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="59dp"
+        android:layout_height="53dp"
+        app:srcCompat="@drawable/Buffalo"
+        tools:layout_editor_absoluteX="326dp"
+        tools:layout_editor_absoluteY="141dp" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="141dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="59dp"
+        android:layout_height="53dp"
+        app:srcCompat="@drawable/Buffalo"
+        tools:layout_editor_absoluteX="326dp"
+        tools:layout_editor_absoluteY="202dp" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="202dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="176dp"
+        android:layout_height="27dp"
+        android:fontFamily="@font/inter_medium"
+        android:text="Chiyongi liked your recipe!"
+        android:textSize="12sp"
+        tools:layout_editor_absoluteX="73dp"
+        tools:layout_editor_absoluteY="215dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

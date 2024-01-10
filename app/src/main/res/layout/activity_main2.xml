@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already have an account? Log In"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="693dp" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="115dp"
+        android:layout_height="40dp"
+        android:background="@drawable/input_bg"
+        android:backgroundTint="#FF0000"
+        android:ems="10"
+        android:inputType="text"
+        android:outlineProvider="none"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:singleLine="true"
+        android:text="Sign Up"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="563dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="339dp"
+        android:layout_height="50dp"
+        android:background="@drawable/input_bg"
+        android:ems="10"
+        android:hint="Re-enter Password"
+        android:inputType="textPassword"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="480dp" />
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="339dp"
+        android:layout_height="50dp"
+        android:background="@drawable/input_bg"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="text"
+        android:outlineProvider="none"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:singleLine="true"
+        android:textAlignment="textStart"
+        android:textColor="#101010"
+        app:layout_constraintEnd_toEndOf="@+id/textView2"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        tools:layout_editor_absoluteY="203dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/days_one"
+        android:text="Create An Account"
+        android:textAlignment="center"
+        android:textColor="#FF0000"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="99dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create account to continue"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="137dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="175dp"
+        tools:layout_editor_absoluteY="54dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="339dp"
+        android:layout_height="50dp"
+        android:background="@drawable/input_bg"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="408dp" />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="339dp"
+        android:layout_height="50dp"
+        android:background="@drawable/input_bg"
+        android:ems="10"
+        android:hint="Phone Number"
+        android:inputType="phone"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="340dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="339dp"
+        android:layout_height="50dp"
+        android:background="@drawable/input_bg"
+        android:ems="10"
+        android:hint="Email Address"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="268dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="255dp"
+        android:layout_height="63dp"
+        android:fontFamily="@font/inter_medium"
+        android:text="By Sign up you are agree with our Terms & Condition of Use"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="600dp" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="49dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="2dp"
+        android:background="@color/white"
+        android:ems="2"
+        android:fontFamily="@font/inter_medium"
+        android:inputType="text"
+        android:text="Login"
+        android:textColor="#FF0808"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.76"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.99" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="193dp"
+        android:layout_height="21dp"
+        android:layout_marginBottom="2dp"
+        android:background="@color/white"
+        android:ems="2"
+        android:fontFamily="@font/inter_medium"
+        android:inputType="text"
+        android:text="Terms & Condition of Use"
+        android:textColor="#FF0808"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.62"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.89" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
